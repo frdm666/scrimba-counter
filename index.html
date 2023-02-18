@@ -1,44 +1,33 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="parent">
-                <h3>HOME</h3>
-                <div class="score" id="score-1"></div>
-                <div class="parent-plus">
-                    <div class="add-score" id="plus-11" onclick="plusOne()">
-                        +1
-                    </div>
-                    <div class="add-score" id="plus-12" onclick="plusTwo()">
-                        +2
-                    </div>
-                    <div class="add-score" id="plus-13" onclick="plusThree()">
-                        +3
-                    </div>
-                </div>
-            </div>
-            <div class="parent">
-                <h3>GUEST</h3>
-                <div class="score" id="score-2"></div>
-                <div class="parent-plus">
-                    <div class="add-score" id="plus-21" onclick="plusOne()">
-                        +1
-                    </div>
-                    <div class="add-score" id="plus-22" onclick="plusTwo()">
-                        +2
-                    </div>
-                    <div class="add-score" id="plus-23" onclick="plusThree()">
-                        +3
-                    </div>
-                </div>
-            </div>
-            
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="parent">
+        <h3>HOME</h3>
+        <div class="score" id="score-1"></div>
+        <div class="parent-plus">
+          <div class="add-score" id="plus-11" onclick="plusOne()">+1</div>
+          <div class="add-score" id="plus-12" onclick="plusTwo()">+2</div>
+          <div class="add-score" id="plus-13" onclick="plusThree()">+3</div>
         </div>
-        <div class="reset" onclick="zero()">
-                RESET
-            </div>
-        <script src="index.js"></script>
-    </body>
+      </div>
+      <div class="parent">
+        <h3>AWAY</h3>
+        <div class="score" id="score-2"></div>
+        <div class="parent-plus">
+          <div class="add-score" id="plus-21" onclick="plusOne()">+1</div>
+          <div class="add-score" id="plus-22" onclick="plusTwo()">+2</div>
+          <div class="add-score" id="plus-23" onclick="plusThree()">+3</div>
+        </div>
+      </div>
+    </div>
+    <div class="reset" onclick="zero()">RESET</div>
+    <script src="index.js"></script>
+  </body>
 </html>
